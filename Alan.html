@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Alan </title>
+<style>
+body {
+    color: blue;
+    font-size: 72px;
+}
+div{
+    display: inline-block;
+    color: green;
+    font-size: 100px;
+}
+.red {
+    color: red;
+}
+</style>
+</head>
+<body>
+     <canvas id="myCanvas" width = "200" height = "200">    
+     </canvas>
+<script>
+   var canvas = document.getElementById('myCanvas')
+   var ctx = canvas.getContext("2d")
+   ctx.moveTo(0,0)
+   ctx.lineTo(200,100)
+   ctx.stroke()
+
+   ctx.beginPath()
+   ctx.arc(95,90,20,0,2*Math.PI)
+   ctx.stroke()
+</script>
+    hello
+<div class="red">
+    boi ;) 
+</div>
+</body>
+</html>
